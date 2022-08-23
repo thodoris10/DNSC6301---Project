@@ -3,7 +3,7 @@
 
 ### Basic Information
 
-* **Person or organization developing model**: Patrick Hall, `jphall@gwu.edu`
+* **Person or organization developing model**: Baiyang, Theodoros, Yeobeen, 'gnby38540903@gwu.edu', 'tpateros@gwu.edu', 'yeobeen.yun@gwu.edu'
 * **Model date**: August, 2021
 * **Model version**: 1.0
 * **License**: MIT
@@ -66,3 +66,4 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 #### Correlation Heatmap
 ![Correlation Heatmap](download.png)
 
+### Ethical considerations
