@@ -10,7 +10,7 @@
 * **Model implementation code**: [DNSC_6301_Example_Project.ipynb](DNSC_6301_Example_Project.ipynb)
 
 ### Intended Use
-* **Primary intended uses**: This model is designed to determine the probability of default for potential clients that are applying for a credit line increase. The purpose of the model is to determine whether a client is eligible for a credit line increase. 
+* **Primary intended uses**: This model is designed to determine the probability of default for potential clients that are applying for a credit line increase. The purpose of the model is to determine whether a client is eligible to extend his credit line limit. 
 * **Primary intended users**: Students in GWU DNSC 6301 bootcamp.
 * **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
 
