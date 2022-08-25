@@ -67,6 +67,14 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 #### Correlation Heatmap
 ![Correlation Heatmap](download.png)
 
-![Iteration Plot]
+#### Iteration Plot
+![Iteration Plot](https://user-images.githubusercontent.com/111533925/186752231-4ed85bfc-cabf-4e53-8fed-611d2dd30443.png)
+* Depth:6/ Training AUC: 0.783722/ Validation AUC: 0.749610/ 5-Fold SD: 0.017665 
+
+
 
 ### Ethical considerations
+
+
+
+
