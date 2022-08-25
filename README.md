@@ -65,5 +65,8 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 
 #### Correlation Heatmap
 ![Correlation Heatmap](download.png)
+![Final Iteration Plot](https://user-images.githubusercontent.com/111533925/186735123-0c9e345b-b20a-4d35-a164-2f609ca97081.png)
+
+
 
 ### Ethical considerations
