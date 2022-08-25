@@ -72,6 +72,9 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 ![Iteration Plot](https://user-images.githubusercontent.com/111533925/186752231-4ed85bfc-cabf-4e53-8fed-611d2dd30443.png)
 * Depth:6/ Training AUC: 0.783722/ Validation AUC: 0.749610/ 5-Fold SD: 0.017665 
 
+#### Decision tree Plot
+![Decision tree](https://user-images.githubusercontent.com/111533925/186758405-4abe99f3-c714-400b-a396-bc91b982dcce.png)
+
 #### Variable Importance
 ![variable importance](https://user-images.githubusercontent.com/111533925/186754598-b37b134e-306e-4e7d-804c-76dc40d83243.png)
 * Test AUC: 0.7438
