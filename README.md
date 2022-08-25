@@ -10,7 +10,7 @@
 * **Model implementation code**: [DNSC_6301_Example_Project.ipynb](DNSC_6301_Example_Project.ipynb)
 
 ### Intended Use
-* **Primary intended uses**: This model is designed to determine the probability of default for potential clients that are applying for a credit line increase. The purpose of the model is to determine whether a client is eligible to extend his credit line limit. 
+* **Primary intended uses**: This model is an example probability of default classifier, with an example use case for determining eligibility for a credit line increase.
 * **Primary intended users**: Students in GWU DNSC 6301 bootcamp.
 * **Out-of-scope use cases**: Any use beyond an educational example is out-of-scope.
 
@@ -51,7 +51,8 @@
 * **Column(s) used as target(s) in the final model**: 'DELINQ_NEXT'
 * **Type of model**: Decision Tree 
 * **Software used to implement the model**: Python, scikit-learn
-* **Version of the modeling software**: 0.22.2.post1
+* **Version of the modeling software**: Python version: 3.7.13
+                                        / sklearn version: 1.0.2
 * **Hyperparameters or other settings of your model**: 
 ```
 DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
@@ -65,8 +66,5 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 
 #### Correlation Heatmap
 ![Correlation Heatmap](download.png)
-![Final Iteration Plot](https://user-images.githubusercontent.com/111533925/186735123-0c9e345b-b20a-4d35-a164-2f609ca97081.png)
-
-
 
 ### Ethical considerations
