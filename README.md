@@ -80,7 +80,8 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 * Test AUC: 0.7438
 
 ### Ethical considerations
+* **Potential negative impacts of using the model**:
 
+* **Potential uncertainties relating to the impacts of using the model:**:
 
-
-
+* **Unexpected or results**:
