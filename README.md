@@ -66,7 +66,8 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 
 #### Correlation Heatmap
 ![Correlation Heatmap](download.png)
-The outcome is negatively corelated with the race. People in certain race group are not getting positve outcome than other people. 
+
+* The outcome is negatively corelated with the race. People in certain race group are not getting positve outcome than other people. 
 
 #### Iteration Plot
 ![Iteration Plot](https://user-images.githubusercontent.com/111533925/186820882-6f0565ba-81b7-4d6d-a9de-94a69738e444.png)
