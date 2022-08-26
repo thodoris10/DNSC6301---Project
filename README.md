@@ -95,3 +95,7 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
   * Real-world risks(Securities and privacy): Users need to upload data to the model for training. If some data is more important or private, it will cause user data leakage to a certain extent, resulting in data security issues
   
 * **Unexpected or results**: There is no missing value. Pay 0 seems too important. 
+
+#### Variable Importance
+![pay 0](https://user-images.githubusercontent.com/111533925/186972709-e5008780-2ea6-4d7e-9219-5e15bb6b2f28.png)
+
