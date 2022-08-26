@@ -71,7 +71,7 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 ![Iteration Plot](https://user-images.githubusercontent.com/111533925/186820882-6f0565ba-81b7-4d6d-a9de-94a69738e444.png)
 
 * Data AUC & AIR: 
-
+ 
 |      | Training Data | Validation Data | Test Data |
 | ---- | ------------- | ---------------- | ---------- |
 |**AUC**| 0.783722 | 0.749610 | 0.7438 |
@@ -79,11 +79,12 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 
 ### Ethical considerations
 * **Potential negative impacts of using the model**:
-  * Math or software problems:  The system might not work well in the future and it needs to be monitored. 
-  * Real-world risks(bias): who, what, when or how
+  * Math or software problems:  The system might not work well in the future and it needs to be monitored. The accuracy only makes 70% and 30% will make wrong decisions. 
+  * Real-world risks(bias): Just simply breaking all people into simple groups introduces bias. Some race groups receive the credit disadvantages. 
 
 * **Potential uncertainties relating to the impacts of using the model:**:
-  * Math or software problems: The system might not work well in the future and it needs to be monitored. 
-  * Real-world risks(Securities and privacy): who, what, when or how
+  * Math or software problems: Even if the model looks good today, we canot preditct how the     model will perform in the future so it needs to be monitored. There is no way to          determine the upper limit of the data the model can train.
+
+  * Real-world risks(Securities and privacy): Users need to upload data to the model for training. If some data is more important or private, it will cause user data leakage to a certain extent, resulting in data security issues
   
-* **Unexpected or results**: no missing value etc.
+* **Unexpected or results**: There is no missing value. Pay 0 seems too important. 
