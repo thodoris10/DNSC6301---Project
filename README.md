@@ -72,12 +72,18 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 #### Iteration Plot
 ![Iteration Plot](https://user-images.githubusercontent.com/111533925/186820882-6f0565ba-81b7-4d6d-a9de-94a69738e444.png)
 
-* Data AUC & AIR: 
+* AUC 
  
 |      | Training Data | Validation Data | Test Data |
 | ---- | ------------- | ---------------- | ---------- |
 |**AUC**| 0.783722 | 0.749610 | 0.7438 |
-| **AIR** |     |      |     |
+
+* AIR
+
+|      | hispanic-to-white | black-to-white | asian-to-white | female-to-male |
+| ---- | ----------------- | ---------------| -------------- | -------------- |
+|**AIR**| 0.83| 0.85 | 1.00 | 1.02 |
+
 
 ### Ethical considerations
 * **Potential negative impacts of using the model**:
