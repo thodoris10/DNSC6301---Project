@@ -71,9 +71,9 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 ![Decision tree](https://user-images.githubusercontent.com/111533925/186758405-4abe99f3-c714-400b-a396-bc91b982dcce.png)
 
 #### Iteration Plot
-![Iteration Plot](https://user-images.githubusercontent.com/111533925/186752231-4ed85bfc-cabf-4e53-8fed-611d2dd30443.png)
+![Iteration Plot](https://user-images.githubusercontent.com/111533925/186820882-6f0565ba-81b7-4d6d-a9de-94a69738e444.png)
 
-* Data dictionary: 
+* Data AUC & AIR: 
 
 |      | Training Data | Validation Data | Test Data |
 | ---- | ------------- | ---------------- | ---------- |
