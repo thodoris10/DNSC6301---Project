@@ -78,6 +78,13 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 ![variable importance](https://user-images.githubusercontent.com/111533925/186754598-b37b134e-306e-4e7d-804c-76dc40d83243.png)
 * Test AUC: 0.7438
 
+* Data dictionary: 
+
+|      | Training Data | Validation Data | Test Data |
+| ---- | ------------- | ---------------- | ---------- |
+|**AUC**| 0.783722 | 0.749610 | 0.7438 |
+| **AIR** |     |      |     |
+
 ### Ethical considerations
 * **Potential negative impacts of using the model**:
 
