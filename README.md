@@ -67,9 +67,6 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 #### Correlation Heatmap
 ![Correlation Heatmap](download.png)
 
-#### Decision tree Plot
-![Decision tree](https://user-images.githubusercontent.com/111533925/186758405-4abe99f3-c714-400b-a396-bc91b982dcce.png)
-
 #### Iteration Plot
 ![Iteration Plot](https://user-images.githubusercontent.com/111533925/186820882-6f0565ba-81b7-4d6d-a9de-94a69738e444.png)
 
@@ -82,7 +79,11 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 
 ### Ethical considerations
 * **Potential negative impacts of using the model**:
+  * Math or software problems:  The system might not work well in the future and it needs to be monitored. 
+  * Real-world risks(bias): who, what, when or how
 
 * **Potential uncertainties relating to the impacts of using the model:**:
-
-* **Unexpected or results**:
+  * Math or software problems: The system might not work well in the future and it needs to be monitored. 
+  * Real-world risks(Securities and privacy): who, what, when or how
+  
+* **Unexpected or results**: no missing value etc.
