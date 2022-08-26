@@ -1,4 +1,3 @@
-# DNSC6301---Project
 # Credit Line Increase Model Card
 
 ### Basic Information
