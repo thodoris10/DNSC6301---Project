@@ -66,6 +66,7 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 
 #### Correlation Heatmap
 ![Correlation Heatmap](download.png)
+The outcome is negatively corelated with the race. People in certain race group are not getting positve outcome than other people. 
 
 #### Iteration Plot
 ![Iteration Plot](https://user-images.githubusercontent.com/111533925/186820882-6f0565ba-81b7-4d6d-a9de-94a69738e444.png)
@@ -80,10 +81,10 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 ### Ethical considerations
 * **Potential negative impacts of using the model**:
   * Math or software problems:  The system might not work well in the future and it needs to be monitored. The accuracy only makes 70% and 30% will make wrong decisions. 
-  * Real-world risks(bias): Just simply breaking all people into simple groups introduces bias. Some race groups receive the credit disadvantages. 
+  * Real-world risks(bias): Breaking all people into simple groups introduces bias right a way. Some race groups receive the credit disadvantages. 
 
 * **Potential uncertainties relating to the impacts of using the model:**:
-  * Math or software problems: Even if the model looks good today, we canot preditct how the     model will perform in the future so it needs to be monitored. There is no way to          determine the upper limit of the data the model can train.
+  * Math or software problems: Even if the model looks good today, we canot preditct how the model will perform in the future so it needs to be monitored. There is no way to determine the upper limit of the data the model can train. Trainging dataset has to come in the earlier time and the validation data has to come next in time and testing data has to the most recent data, but there is no explicit column about the time of dataset, which will make wrong decisions. 
 
   * Real-world risks(Securities and privacy): Users need to upload data to the model for training. If some data is more important or private, it will cause user data leakage to a certain extent, resulting in data security issues
   
