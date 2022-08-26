@@ -99,7 +99,7 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
   * Real-world risks(Securities and privacy): Users need to upload data to the model for training. If some data is more important or private, it will cause user data leakage to a certain extent, resulting in data security issues
   
 * **Unexpected results**: 
-* The absence of missing values is the first unexpected result of our model.
-*  Secondly, as illustrated in the figure below, the variable "PAY 0" appears to have a substantive variable importance for our model. 
+  * The absence of missing values is the first unexpected result of our model.
+  * Secondly, as illustrated in the figure below, the variable "PAY 0" appears to have a substantive variable importance for our model. 
 
 ![pay 0](https://user-images.githubusercontent.com/111533925/186976921-4a74fca7-6813-451f-b370-0ab0ce15f968.png)
