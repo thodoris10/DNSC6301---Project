@@ -71,6 +71,8 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 #### Iteration Plot
 ![Iteration Plot](https://user-images.githubusercontent.com/111533925/186820882-6f0565ba-81b7-4d6d-a9de-94a69738e444.png)
 
+*The iteration plot above shows the relationship between "Training AUC", "Validation AUC", "Hispanic-to-White AIR" with different levels for the tree depth. We have decided that a tree depth of 6 is most accurate because at that point the "Validation AUC" is at its highest point, "Training AUC" is at a satisfactory level, and "Hispanic-to-White AIR" is at 0.83. 
+
 * AUC 
  
 |      | Training Data | Validation Data | Test Data |
