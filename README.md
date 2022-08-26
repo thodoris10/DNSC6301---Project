@@ -87,7 +87,9 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 ### Ethical considerations
 * **Potential negative impacts of using the model**:
   * Math or software problems:  The system might not work well in the future and it needs to be monitored. The accuracy only makes 70% and 30% will make wrong decisions. 
-  * Real-world risks(bias): Breaking all people into simple groups introduces bias right a way. Some race groups receive the credit disadvantages. The model output can be corelated with the demographic information such as gender and race and will show different accuracies and validity. 
+  * Math or software problems: The system needs to be monitored to ensure that it will still produce appropriate results in the future. Today, the software is rated with an AUC of 0.7438 for the test data, which means that it will only be correct 74 percent of the time. 
+  * Real-world risks(bias): Breaking all people into simple groups introduces bias right a way. Some race groups receive the credit disadvantages. The model output can be corelated with the demographic information such as gender and race and will show different accuracies and validity.
+  * Real-world risks(bias): The model is subjected to real-world risks such as bias due to the presence of demographic variables in the data set. This introduces the risk of correlation with the demographic infromation which is not a desirable feature for this model.
 
 * **Potential uncertainties relating to the impacts of using the model:**:
   * Math or software problems: Even if the model looks good today, we canot preditct how the model will perform in the future so it needs to be monitored. There is no way to determine the upper limit of the data the model can train. Trainging dataset has to come in the earlier time and the validation data has to come next in time and testing data has to the most recent data, but there is no explicit column about the time of dataset, which will make wrong decisions. 
@@ -95,7 +97,3 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
   * Real-world risks(Securities and privacy): Users need to upload data to the model for training. If some data is more important or private, it will cause user data leakage to a certain extent, resulting in data security issues
   
 * **Unexpected or results**: There is no missing value. Pay 0 seems too important. 
-
-#### Variable Importance
-![pay 0](https://user-images.githubusercontent.com/111533925/186972709-e5008780-2ea6-4d7e-9219-5e15bb6b2f28.png)
-
