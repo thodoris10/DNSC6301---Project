@@ -89,21 +89,17 @@ best_model.get_params (ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 
 ### Ethical considerations
 * **Potential negative impacts of using the model**:
-  * Math or software problems:  The system might not work well in the future and it needs to be monitored. The accuracy only makes 70% and 30% will make wrong decisions. 
-  * (Math or software problems: The system needs to be monitored to ensure that it will still produce appropriate results in the future. Today, the software is rated with an AUC of 0.7438 for the test data, which means that it will only be correct 74 percent of the time. While it is very challenging to produce a model that will always be accurate, the possibility of producing the wrong outcome 26 percent of the time definitely classifies as potenital negative impact of using the model.) 
-  * Real-world risks(bias): Breaking all people into simple groups introduces bias right a way. Some race groups receive the credit disadvantages. The model output can be corelated with the demographic information such as gender and race and will show different accuracies and validity.
-  * Real-world risks(bias): The model is subjected to real-world risks such as bias due to the presence of demographic variables in the data set. This introduces the risk of correlation with the demographic infromation which is not a desirable feature for this model.
+  * Math or software problems: The performance of the model needs to be monitored to ensure that the model will function properly in the future. Currently, its accuracy is standing at 70% which is not an ideal outcome since there is a 30% probability for the model to make a wrong decision.
+  * Real-world risks(bias): The model is subjected to real-world risks such as bias due to the presence of demographic variables in the data set. This introduces the risk of correlation with demographic infromation which is not a desirable feature for this model.
 
 * **Potential uncertainties relating to the impacts of using the model**:
   * Math or software problems: Even if the model looks good today, we canot preditct how the model will perform in the future so it needs to be monitored. There is no way to determine the upper limit of the data the model can train. Trainging dataset has to come in the earlier time and the validation data has to come next in time and testing data has to the most recent data, but there is no explicit column about the time of dataset, which will make wrong decisions. 
   * Math or software problems: #####STILL NEED TO WORK ON THIS ONE##### 
 
-  * Real-world risks(Securities and privacy): Users need to upload data to the model for training. If some data is more important or private, it will cause user data leakage to a certain extent, resulting in data security issues
-  * Real-world risks(Securities and privacy): The users of the model are required to upload data for the model to function properly. In situations where the data are of a more sensitive nature in terms of privacy and importance, data security concerns could be raised about the model. 
+  * Real-world risks(Securities and privacy): The users of the model are required to upload data for the model to function properly. In situations where the data are of a more sensitive nature in terms of privacy and importance, data security concerns could arise about the model. 
   
 * **Unexpected results**: 
   * The absence of missing values is the first unexpected result of our model.
-  * Secondly, as illustrated in the figure below, the variable "PAY 0" appears to have a substantive variable importance for our model. 
-  * ( Lastly, the correlation between the variable "RACE" and the target variable "DELINQ_NEXT" is also an unexpected result since we would not expect race to be a factor that determines whether a person is likely to default on its credit obligations. )
+  * Secondly, as illustrated in the figure below, the variable "PAY 0" appears to have a substantive variable importance for our model which also classifies as an unexpected result.
 
 ![pay 0](https://user-images.githubusercontent.com/111533925/186976921-4a74fca7-6813-451f-b370-0ab0ce15f968.png)
