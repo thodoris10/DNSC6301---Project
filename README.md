@@ -93,7 +93,7 @@ DecisionTreeClassifier(ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
   * Real-world risks(bias): Breaking all people into simple groups introduces bias right a way. Some race groups receive the credit disadvantages. The model output can be corelated with the demographic information such as gender and race and will show different accuracies and validity.
   * Real-world risks(bias): The model is subjected to real-world risks such as bias due to the presence of demographic variables in the data set. This introduces the risk of correlation with the demographic infromation which is not a desirable feature for this model.
 
-* **Potential uncertainties relating to the impacts of using the model:**:
+* **Potential uncertainties relating to the impacts of using the model**:
   * Math or software problems: Even if the model looks good today, we canot preditct how the model will perform in the future so it needs to be monitored. There is no way to determine the upper limit of the data the model can train. Trainging dataset has to come in the earlier time and the validation data has to come next in time and testing data has to the most recent data, but there is no explicit column about the time of dataset, which will make wrong decisions. 
   * Math or software problems: #####STILL NEED TO WORK ON THIS ONE##### 
 
