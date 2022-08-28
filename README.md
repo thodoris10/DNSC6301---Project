@@ -6,7 +6,7 @@
 * **Model date**: August, 2022
 * **Model version**: 1.0
 * **License**: MIT
-* **Model implementation code**: [GWU_DSNC_6301_G17.ipynb](GWU_DSNC_6301_G17.ipynb)
+* **Model implementation code**: [GWU_DSNC_6301_G17.ipynb](GWU_DNSC_6301_G17.ipynb)
 
 
 ### Intended Use
