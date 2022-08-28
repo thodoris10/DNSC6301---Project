@@ -2,7 +2,7 @@
 
 ### Basic Information
 
-* **Person or organization developing model**: Baiyang, Theodoros Pateros, Yeobeen, 'gnby38540903@gwu.edu', 'tpateros@gwu.edu', 'yeobeen.yun@gwu.edu'
+* **Person or organization developing model**: Baiyang, Theodoros, Yeobeen, 'gnby38540903@gwu.edu', 'tpateros@gwu.edu', 'yeobeen.yun@gwu.edu'
 * **Model date**: August, 2022
 * **Model version**: 1.0
 * **License**: MIT
