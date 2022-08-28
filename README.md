@@ -89,7 +89,7 @@ best_model.get_params (ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 
 ### Ethical considerations
 * **Potential negative impacts of using the model**:
-  * Math or software problems: The performance of the model needs to be monitored to ensure that the model will function properly in the future. Currently, its accuracy is standing at 70% which is not an ideal outcome since there is a 30% probability that the model will make a wrong decision.
+  * Math or software problems: The performance of the model needs to be monitored to ensure that the model will function properly in the future. Currently, its accuracy is standing at 70% which is not an ideal outcome since there is a 30% probability that the model will make an innacurate decision.
   * Real-world risks(bias): The model is subjected to real-world risks such as bias due to the presence of demographic variables in the data set. This introduces the risk of correlation with demographic infromation which is not a desirable feature for this model.
 
 * **Potential uncertainties relating to the impacts of using the model**:
