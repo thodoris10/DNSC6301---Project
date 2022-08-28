@@ -89,11 +89,11 @@ best_model.get_params (ccp_alpha: 0.0, class_weight: None, criterion: 'gini',
 
 ### Ethical considerations
 * **Potential negative impacts of using the model**:
-  * Math or software problems: The performance of the model needs to be monitored to ensure that the model will function properly in the future. Currently, its accuracy is standing at 70% which is not an ideal outcome since there is a 30% probability for the model to make a wrong decision.
+  * Math or software problems: The performance of the model needs to be monitored to ensure that the model will function properly in the future. Currently, its accuracy is standing at 70% which is not an ideal outcome since there is a 30% probability that the model will make a wrong decision.
   * Real-world risks(bias): The model is subjected to real-world risks such as bias due to the presence of demographic variables in the data set. This introduces the risk of correlation with demographic infromation which is not a desirable feature for this model.
 
 * **Potential uncertainties relating to the impacts of using the model**:
-  * Math or software problems: Even if the model looks good today, we canot preditct how the model will perform in the future so it needs to be monitored. There is no way to determine the upper limit of the data the model can train. Trainging dataset has to come in the earlier time and the validation data has to come next in time and testing data has to the most recent data, but there is no explicit column about the time of dataset, which will make wrong decisions. 
+  * Math or software problems: Even if the model looks good today, we canot preditct how the model will perform in the future so it needs to be monitored. There is no way to determine the upper limit of the data the model can train. Furthermore, the model does not include an explicit column that will allow it to take time as a variable for consideration. More specifically, the training data need to include the older data of our dataset. The validation data are expected to be more recent than the training data, and lastly, the testing data must include the most recent data of our dataset. The fact that this model does not take timing into consideration can lead to future uncertainties with regards to the model's effectiveness.
   * Real-world risks(Securities and privacy): The users of the model are required to upload data for the model to function properly. In situations where the data are of a more sensitive nature in terms of privacy and importance, data security concerns could arise about the model. 
   
 * **Unexpected results**: 
